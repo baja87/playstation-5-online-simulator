@@ -3,6 +3,9 @@ import coverExplore from "./assets/cover-explore.png";
 import coverNetflix from "./assets/cover-netflix.png";
 import coverSpotify from "./assets/cover-spotify.png";
 import coverDisney from "./assets/cover-disney.png";
+import coverPump from "./assets/pump.png";
+import coverTwitter from "./assets/twitter.png";
+
 
 export const Apps = {
   store: {
@@ -88,33 +91,30 @@ export const Games = {
     youtube: "33zqCAJ-qrE",
   },
   assassin: {
-    cover:
-      "https://image.api.playstation.com/vulcan/ap/rnd/202008/1318/8XGEPtD1xoasK0FYkYNcCn1z.png?w=440&thumb=false",
-    label: "Assassin's Creed Valhalla",
-    bg:
-      "https://gmedia.playstation.com/is/image/SIEPDC/assassins-creed-valhalla-screen-06-ps4-en-17jul20?$1600px$",
+    cover: coverPump,
+    label: "Buy $PS5",
+    bg: coverPump,
     tag: "Full Game",
     price: "$ 59.99",
     title: "Lead epic raids",
     text:
       "Raid your enemies, grow your settlement and build your political power in the next chapter of the Assassin’s Creed series.",
     purchase:
-      "https://www.playstation.com/en-us/games/assassins-creed-valhalla/",
-    youtube: "gnmuEkn30ZE",
+      "https://pump.fun/board",
+    youtube: "",
   },
   sackboy: {
-    cover:
-      "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png?w=440&thumb=false",
-    label: "Sackboy: A Big Adventure",
+    cover: coverTwitter,
+    label: "X",
     bg:
-      "https://gmedia.playstation.com/is/image/SIEPDC/ps5-sackboy-video-thumb-block-06-en-110620?$1600px$",
+      coverTwitter,
     tag: "Full Game",
     price: "$ 59,99",
     title: "Sackboy: A Big Adventure",
     text: "Take Sackboy on an epic 3D platforming adventure with your friends.",
     purchase:
-      "https://www.playstation.com/en-us/games/sackboy-a-big-adventure/",
-    youtube: "ZOk3fj5ujNM",
+      "https://twitter.com/home",
+    youtube: "",
   },
   spider: {
     cover:
@@ -129,7 +129,7 @@ export const Games = {
       "Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.",
     purchase:
       "https://www.playstation.com/en-us/games/marvels-spider-man-miles-morales/",
-    youtube: "NTunTURbyUU",
+    youtube: "",
   },
   cod: {
     cover:

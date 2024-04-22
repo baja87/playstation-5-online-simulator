@@ -40,22 +40,7 @@ export const menuPrimary = [
       {
         app: Games.assassin,
         lists: [
-          {
-            type: "gallery",
-            title: "Media",
-            items: Images.assassin,
-          },
-          {
-            type: "games",
-            title: "More like this",
-            items: [
-              Games.watch,
-              Games.demon,
-              Games.horizon,
-              Games.god,
-              Games.death,
-            ],
-          },
+          
         ],
       },
       {
@@ -106,11 +91,7 @@ export const menuPrimary = [
       {
         app: Games.sackboy,
         lists: [
-          {
-            type: "gallery",
-            title: "Media",
-            items: Images.sackboy,
-          },
+          
         ],
       },
       {
@@ -132,6 +113,7 @@ export const menuPrimary = [
       { app: Apps.netflix },
       { app: Apps.spotify },
       { app: Apps.disney },
+
     ],
   },
 ];
