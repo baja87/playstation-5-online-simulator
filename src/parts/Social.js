@@ -9,8 +9,7 @@ const Social = () => {
     <div className="ps5-modal-dialog">
       <h2>Hi!</h2>
       <p>
-        My name is Eduardo Allegrini, I'm a Frontend Developer and this website
-        is a side project I made as a study of PlayStation 5 UX
+        Buy $PS5 on Pump.Fun
       </p>
       <p>
         I would really appreciate it if you could share this page through your
@@ -22,8 +21,7 @@ const Social = () => {
           rel="noreferrer"
           title="Twitter"
           className="ps5-btn ps5-btn-lg ps5-btn-mono ps5-btn-primary"
-          href="https://twitter.com/intent/retweet?tweet_id=1334921677340372998"
-          // href="https://twitter.com/intent/follow?screen_name=edalgrin&tw_p=followbutton"
+          href="https://twitter.com/home"
         >
           <IconTwitter />
         </a>
