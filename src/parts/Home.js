@@ -35,19 +35,19 @@ class Home extends Component {
         ) : (
           <div className="ps5-home-content">
             <div>
-              <p>This website is a study project about</p>
+              <p>Buy $PS5 On Pump.Fun</p>
               <p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ps5-link"
-                  href="http://playstation.com/"
+                  href="https://pump.fun/board"
                 >
-                  PlayStation
-                </a>{" "}
-                5 User Experience
+                  BUY
+                </a>
+               
               </p>
-              <p>All the texts, images and links belong to them</p>
+              <p >Press Continue to Play PS5</p>
             </div>
 
             <a
